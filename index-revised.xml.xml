@@ -1,0 +1,121 @@
+<!DOCTYPE data
+[
+
+<!ENTITY CEO "<name>John Doe</name>" >
+<!ENTITY SManager "<name>Jane Doe</name>" >
+
+
+<!ENTITY SoftEng "<name>Jane Cole</name>" >
+<!ENTITY AProjectT1 "<name>Leil Towns</name>" >
+<!ENTITY AProjectT2 "<name>May Johnson</name>" >
+<!ENTITY AProjectT3 "<name>Kate Parker</name>" >
+<!ENTITY AProjectT4 "<name>Kurt James</name>" >
+
+
+
+<!ENTITY PManager "<name>Juan Dela Cruz</name>" >
+<!ENTITY PLead "<name>Juan Dela Cruz</name>" >
+<!ENTITY BProjectT1 "<name>Joseph Smith</name>" >
+<!ENTITY BProjectT2 "<name>Miles Poster</name>" >
+<!ENTITY TLead1 "<name>June Webster</name>" >
+<!ENTITY BProjectT3 "<name>Jack Barnes</name>" >
+<!ENTITY BProjectT4 "<name>Kim Jones</name>" >
+
+
+
+<!ENTITY MManager "<name>Beth Davis</name>" >
+<!ENTITY MLead1 "<name>Mark Middleton</name>" >
+<!ENTITY MTrainee1 "<name>Pete Lowe</name>" >
+<!ENTITY MTrainee2 "<name>Jada Payne</name>" >
+<!ENTITY TLead "<name>Janah Simmons</name>" >
+<!ENTITY MTrainee3 "<name>Cole Johnson</name>" >
+<!ENTITY MTrainee4 "<name>Jen Collins</name>" >
+
+
+
+<!ENTITY OManager "<name>Maria Dela Cruz</name>" >
+<!ENTITY OLead "<name>Mark Middleton</name>" >
+<!ENTITY OTrainee1 "<name>Pete Lowe</name>" >
+<!ENTITY OTrainee2 "<name>Jada Payne</name>" >
+
+
+
+
+
+
+]>
+
+
+
+<OrganizationChart>
+	
+<DepartmentHead>
+	<Ceo>
+		&CEO;
+		<SeniorManager>
+			&SManager;
+			<ComputerScienceDepartment>
+			<SoftwareEngr>
+				&SoftEng;
+				<ProjectTrainee>
+					&AProjectT1;
+					&AProjectT2;
+					&AProjectT3;
+					&AProjectT4;
+				</ProjectTrainee>
+				</SoftwareEngr>
+		</ComputerScienceDepartment>
+		<ItDepartment>
+			<ProjectManager>
+				&PManager;
+				<ProJectLead>
+					&PLead;
+					<ProjectTrainee>
+						&BProjectT1;
+						&BProjectT1;
+					</ProjectTrainee>
+					</ProJectLead>
+					<TeamLead>
+						&TLead;
+						<ProjectTrainee>
+							&BProjectT3;
+							&BProjectT4;
+						</ProjectTrainee>
+					</TeamLead>
+				</ProjectManager>
+			</ItDepartment>
+		<MarketingDepartment>
+				<MarketingManager>
+				&MManager;
+				<MarketingLead>
+					&MLead1;
+				<MarketingTrainee>
+					&MTrainee1; 
+					&MTrainee2; 
+				</MarketingTrainee>
+				</MarketingLead>
+				<TeamLead>
+					&TLead;
+					<MarketingTrainee>
+						&MTrainee3;
+						&MTrainee4;
+					</MarketingTrainee>
+				</TeamLead>
+			</MarketingManager>
+			</MarketingDepartment>
+			<OperationDepartment>
+			<OperationManager>
+				&OManager;
+				<OperationLead>
+					&OLead;
+					<OperationTrainee>
+						&OTrainee1;
+						&OTrainee2;
+					</OperationTrainee>
+				</OperationLead>
+			</OperationManager>
+		</OperationDepartment>
+		</SeniorManager>
+		</Ceo>
+	</DepartmentHead>
+</OrganizationChart>

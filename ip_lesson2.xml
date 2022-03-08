@@ -1,0 +1,124 @@
+<!DOCTYPE OrganizationChart
+[
+<!ENTITY FullName "<name>John Doe</name>" >
+<!ENTITY Position "<position>CEO</position>" >
+<!ENTITY FullName1 "<name>Jane Doe</name>" >
+<!ENTITY Position1 "<position>Senior Manager</position>" >
+<!ENTITY FullName2 "<name>Jane Cole</name>" >
+<!ENTITY Position2 "<position>SOFTWARE ENGR</position>" >
+<!ENTITY FullName3 "<name>Leil Towns</name>" >
+<!ENTITY Position3 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName4 "<name>May Johnson</name>" >
+<!ENTITY Position4 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName5 "<name>Kate Parker</name>" >
+<!ENTITY Position5 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName6 "<name>Kurt James</name>" >
+<!ENTITY Position6 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName7 "<name>Juan Dela Cruz</name>" >
+<!ENTITY Position7 "<position>PROJECT Manager</position>" >
+<!ENTITY FullName8 "<name>Juan Dela Cruz</name>" >
+<!ENTITY Position8 "<position>PROJECT LEAD</position>" >
+<!ENTITY FullName9 "<name>June Webster</name>" >
+<!ENTITY Position9 "<position>PROJECT LEAD</position>" >
+<!ENTITY FullName10 "<name>Joseph Smith</name>" >
+<!ENTITY Position10 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName11 "<name>Jack Barnes</name>" >
+<!ENTITY Position11 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName12 "<name>Miles Poster</name>" >
+<!ENTITY Position12 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName13 "<name>Kim Jones</name>" >
+<!ENTITY Position13 "<position>PROJECT TRAINEE</position>" >
+<!ENTITY FullName14 "<name>Beth Davis</name>" >
+<!ENTITY Position14 "<position>MARKETING MANAGER</position>" >
+<!ENTITY FullName15 "<name>Mark Middleton</name>" >
+<!ENTITY Position15 "<position>MARKETING LEAD</position>" >
+<!ENTITY FullName16 "<name>Janah Simmons</name>" >
+<!ENTITY Position16 "<position>MARKETING LEAD</position>" >
+<!ENTITY FullName17 "<name>Pete Lowe</name>" >
+<!ENTITY Position17 "<position>MARKETING TRAINEE</position>" >
+<!ENTITY FullName18 "<name>Cole Johnson</name>" >
+<!ENTITY Position18 "<position>MARKETING TRAINEE</position>" >
+<!ENTITY FullName19 "<name>Jada Payne</name>" >
+<!ENTITY Position19 "<position>MARKETING TRAINEE</position>" >
+<!ENTITY FullName20 "<name>Jen Collins</name>" >
+<!ENTITY Position20 "<position>MARKETING TRAINEE</position>" >
+<!ENTITY FullName21 "<name>Maria Dela Cruz</name>" >
+<!ENTITY Position21 "<position>OPERATION MANAGER</position>" >
+<!ENTITY FullName22 "<name>Mark Middleton</name>" >
+<!ENTITY Position22 "<position>OPERATION LEAD</position>" >
+<!ENTITY FullName23 "<name>Pete Lowe</name>" >
+<!ENTITY Position23 "<position>OPERATION TRAINEE</position>" >
+<!ENTITY FullName24 "<name>Jada Payne</name>" >
+<!ENTITY Position24 "<position>OPERATION TRAINEE</position>" >
+
+]>
+
+<OrganizationChart>
+
+	<DepartmentHead>
+		&FullName;
+		&Position;
+		&FullName1;
+		&Position1;
+	
+		<ComputerScienceDepartment>
+		    &FullName2;
+			&Position2;
+			&FullName3;
+			&Position3;
+			&FullName4;
+			&Position4;
+			&FullName5;
+			&Position5;
+			&FullName6;
+			&Position6;
+		
+			<ItDepartment>
+				&FullName7;
+				&Position7;
+				&FullName8;
+				&Position8;
+				&FullName9;
+				&Position9;
+				&FullName10;
+				&Position10;
+				&FullName11;
+				&Position11;
+				&FullName12;
+				&Position12;
+				&FullName13;
+				&Position13;
+													
+				<MarkertingDepartment>
+					&FullName14;
+					&Position14;
+					&FullName15;
+					&Position15;
+					&FullName16;
+					&Position16;
+					&FullName17;
+					&Position17;
+					&FullName18;
+					&Position18;
+					&FullName19;
+					&Position19;
+					&FullName20;
+					&Position20;
+																
+					<OperationDepartment>
+						&FullName21;
+						&Position21;
+						&FullName22;
+						&Position22;
+						&FullName23;
+						&Position23;
+						&FullName24;
+						&Position24;
+					</ComputerScienceDepartment>
+				</ItDepartment>
+			</MarkertingDepartment>
+		</OperationDepartment>
+		
+					
+	</DepartmentHead>
+</OrganizationChart>
